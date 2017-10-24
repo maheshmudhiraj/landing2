@@ -1,0 +1,103 @@
+body
+{
+	position:relative;
+	width:100%;
+	margin:0;
+}
+#logo
+{
+	position:absolute;
+	left:30px;
+	top:30px;
+}
+#logo1
+{
+	position:absolute;
+	top:30px;
+	left:130px;	
+	font-size:50px;
+	font-weight:bold;
+	color:red;
+}
+#logo2
+{
+	position:absolute;
+	top:80px;
+	left:135px;	
+	font-size:30px;
+	font-weight:bold;
+	color:black;
+}
+ul.menu
+{
+	position:absolute;
+	top:130px;
+	background-color:#7c7d7f;
+	width:1175px;
+	height:45px;
+	padding-top:10px;
+	text-align:center;
+}
+ul.menu li
+{
+	list-style:none;
+	display:inline;
+	padding:19px 35px;
+margin:10px;
+}
+ul.menu li a
+{
+	text-decoration:none;
+	color:white;
+	font-size:25px;
+	
+}
+ul.menu li a:hover
+{
+	color:red;
+}
+ul.menu li ul.sub
+{
+	display:none;
+	left:180px;
+	top:57px;
+	position:absolute;
+	background-color:#7c7d7f;
+	padding:10px 15px;
+}
+ul.menu li ul.sub a
+{
+	color:white;
+	display:block;
+		border-bottom:1px dotted white;
+}
+ul.menu li:hover ul.sub
+{
+	display:block;
+	color:red;
+	text-decoration:none;
+}
+
+
+
+ul.menu li ul.sub1
+{
+	display:none;
+	left:400px;
+	top:57px;
+	position:absolute;
+	background-color:#7c7d7f;
+	padding:10px 15px;
+}
+ul.menu li ul.sub1 a
+{
+	color:white;
+	display:block;
+		border-bottom:1px dotted white;
+}
+ul.menu li:hover ul.sub1
+{
+	display:block;
+	color:red;
+	text-decoration:none;
+}
